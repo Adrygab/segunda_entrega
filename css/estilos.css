@@ -756,6 +756,12 @@ max-width: 1024px;
   }
   
   /*Contacto*/
+  .contactame{
+    background-image: url(../img/contactame/contacto.jpg);
+    background-position: center left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+ }
 
  .iconoDatos{
     width: 70px;
@@ -905,6 +911,7 @@ max-width: 1024px;
   width: 100%;
  height:auto;
   margin: 0;
+  padding: 70px 0px 0px 0px;
 
 }
 
@@ -1001,5 +1008,20 @@ max-width: 1024px;
   .galleryItem{
     width: 100%;
   }
+  /*Clientes*/
+  .clientes{
+    
+    background-position: center center;
+    background-size: 140%;
+
+ }
+
+  /*Contacto*/
+  .contactame{
+    
+    background-position: top center;
+    background-size: 150%;
+
+ }
 
 }
