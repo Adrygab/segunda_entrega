@@ -164,13 +164,26 @@ transition: all ease 0.5s; /*over animado*/
 }
 
 .telefono:hover{
-    width: 200px;
+    width: 170px;
     text-align: center;
     padding: 10px;
     margin: 20px 0;
     color: #ffffff;
+    text-shadow: 2px -1px 5px #fdffc8;
    
 }
+
+.WhatsAppBtn{
+ width: 50px;
+ height: 50px;
+ margin: 10px auto;
+ transform: scale(100%);
+ transition: all ease 0.5s; /*over animado*/
+}
+.WhatsAppBtn:hover{
+  transform: scale(110%);
+  margin: 10px auto;
+ }
 
 /*Footer*/  
  
@@ -207,13 +220,6 @@ footer{
         margin: 20px;
 
 }
-  .sesgado{
-    
-       -webkit-transform: skewY(-3deg) translateY(-1px);
-        -moz-transform: skewY(-1deg) translateY(-1px);
-        -ms-transform: skewY(-1deg) translateY(-1px);
-        transform: skewY(-3deg 5deg) translateY(-1px); 
- }
 
  /*slider*/
 .oscuro{
@@ -225,15 +231,11 @@ footer{
     z-index:3;
 }
 
-
-
 .InfoInicio{
     margin: auto;
     max-width: 500px;
     text-align: center;
 }
-
-
 
 .info_Sl{
     color:#ffffff;
@@ -245,6 +247,10 @@ footer{
     color: #D60A00;
 }
 
+.boton a{
+  color: #fff;
+}
+
 .boton{
 width: 150px;
 padding: 10px;
@@ -254,11 +260,10 @@ border-top: 2px solid #D60A00;
 border-bottom: 2px solid #D60A00;
 transition: all ease 0.5s; /*hover animado*/
 background: transparent;
+color:#ffffff;
 }
 
-
 .boton:hover{
-
 width: 200px;
 padding: 10px;
 margin: auto;
@@ -814,6 +819,13 @@ max-width: 1024px;
         width: 60%;
     }
 
+    .WhatsAppBtn{
+      margin: 10px 0;
+     }
+
+     .WhatsAppBtn:hover{
+      margin: 10px 0;
+     }
     /*Portafolio*/
 .oscuro_slider{
   background-color: rgba(0,0,0,0.6);
@@ -870,6 +882,13 @@ max-width: 1024px;
 .contenido{
     margin-top: 90px;
 }
+.WhatsAppBtn{
+  margin: 10px 0;
+ }
+
+ .WhatsAppBtn:hover{
+  margin: 10px 0;
+ }
 
  /*slider*/
  .oscuro{
