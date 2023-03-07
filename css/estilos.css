@@ -924,7 +924,7 @@ max-width: 1024px;
 .conoceme{
     background-image: url(../img/conoceme/conoceme.jpg);
     background-position: top left;
-    background-size:130%;
+    background-size:140%;
     background-repeat: no-repeat;
  }
  .claro_slider{
@@ -932,7 +932,7 @@ max-width: 1024px;
     height:auto;
     position:static;
     top:0px;
-    margin-top: 220px;
+    margin-top: 150px;
    
 }
 
@@ -978,7 +978,7 @@ max-width: 1024px;
 }
 
 .portafolio{
-  background-size: 120%;
+  background-size: 160%;
   background-repeat:no-repeat;
   background-position: top center;
 
