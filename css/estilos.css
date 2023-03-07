@@ -286,7 +286,7 @@ border-bottom: 2px solid #D60A00;
    border-bottom: 2px solid #ffffff;
    transition: all ease 0.5s; /*hover animado*/
    background: #ffffff;
-   color: #ffffff;
+   color: #000000;
    }
    
    .boton2:hover{
