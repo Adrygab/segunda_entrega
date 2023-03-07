@@ -202,7 +202,7 @@ footer{
     
     .aviso{
      color:#ffffff;
-     background-color: black;
+     background-color: red;
     text-align: center;
     padding: 10px;
     
@@ -261,6 +261,7 @@ border-bottom: 2px solid #D60A00;
 transition: all ease 0.5s; /*hover animado*/
 background: transparent;
 color:#ffffff;
+background-color: #D60A00;
 }
 
 .boton:hover{
@@ -284,7 +285,7 @@ border-bottom: 2px solid #D60A00;
    border-right: 0px;
    border-bottom: 2px solid #ffffff;
    transition: all ease 0.5s; /*hover animado*/
-   background: transparent;
+   background: #ffffff;
    color: #ffffff;
    }
    
@@ -307,7 +308,7 @@ border-bottom: 2px solid #D60A00;
     border-top: 2px solid #D60A00;
     border-bottom: 2px solid #D60A00;
     transition: all ease 0.5s; /*hover animado*/
-    background: transparent;
+    background: #D60A00;
     color: #000;
     }
 
@@ -773,9 +774,6 @@ max-width: 1024px;
     font-weight: bold;
 
 }
-
-
-
 
  @media (min-width:768px) and (max-width:1024px){
   .menuVer
