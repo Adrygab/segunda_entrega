@@ -252,7 +252,7 @@ footer{
 }
 
 .boton{
-width: 150px;
+width: 200px;
 padding: 10px;
 margin: auto;
 text-align: center;
@@ -264,7 +264,7 @@ color:#ffffff;
 }
 
 .boton:hover{
-width: 200px;
+width: 250px;
 padding: 10px;
 margin: auto;
 text-align: center;
@@ -424,7 +424,7 @@ p.capitalLetter:first-letter
 }
 
 .habilidades{
-   padding: 50px 0 0 0;
+   padding: 50px 0;
     background-image: url(../img/conoceme/slide_habilidades.jpg);
     background-attachment: fixed;
     background-position: top left;
@@ -912,7 +912,7 @@ max-width: 1024px;
 .conoceme{
     background-image: url(../img/conoceme/conoceme.jpg);
     background-position: top left;
-    background-size:150%;
+    background-size:130%;
     background-repeat: no-repeat;
  }
  .claro_slider{
