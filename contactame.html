@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/estilos.css"/>
+<!--fuentes-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Nunito:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>INICIO</title>
+</head>
+<body>
+    <div class="ContGral row container-fluid col-lg-2 justify-content-end">
+       <header class="container-fluid col-lg-2 col-md-12 col-12 position-fixed align-items-center z-10 shadow-lg">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid menuVer">
+              <a class="navbar-brand" href="#"><img src="./img/logotipo.png" alt="logotipo"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="conoceme.html">CONÓCEME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portafolio.html">PORTAFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="clientes.html">ALGUNOS CLIENTES</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link active" href="contactame.html">CONTÁCTAME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link telefono" href="tel:+5550755163"><i class="fas fa-phone"></i> 55-5075-5163</a> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+       </header>
+
+       <main class="contenido col-lg-10 col-md-12 col-12">
+
+      <section class="row ">
+
+        <div class="slider_interno clientes">
+            <div class="oscuro_slider d-flex flex-column justify-content-center align-items-center p-5  text-center">
+                <h1 class="sombra">
+                    <span class="TitInt2">Contáctame</span>
+                  </h1>
+                  <p class="capitalLetter info text-light text-left col-12">
+                    Estoy a tus órdenes para contribuir con mi creatividad e ideas.
+                </p>
+
+            </div>  
+            
+        </div>
+     
+        <div class="contenedor d-flex  justify-content-center align-items-center text-light p-7 text-center">
+            
+            <form class="row g-3 p-5">
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputnombre">
+                  </div>
+
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Teléfono</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputelefono">
+                  </div>
+                  <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Comentario</label>
+                  <textarea name="textarea" class="form-control" cols="50"></textarea>
+                </div>
+              
+                <div class="col-12">
+                  <button type="submit" class="boton2">ENVIAR</button>
+                </div>
+              </form>
+        </div>
+
+
+        <aside class="caractaristicas">
+          <div class="card shadow" style="width: 18rem;">
+            <div class="card-body">
+              <div class="iconoDatos">
+                <img src="./iconos/pin.svg"  alt="ubicación" />
+              </div>
+              <p class="card-text text-center"> Hipódromo, Cuauhtémoc, <br>
+                C.P. 06100 Ciudad de México, CDMX</p>
+            </div>
+          </div>
+
+          <div class="card text-center shadow" style="width: 18rem;">
+            <div class="card-body">
+              <div class="iconoDatos">
+                <img src="./iconos/telefono.svg"  alt="teléfono" />
+              </div>
+              <a href="tel:+5550755163">55-5075-5163</a>
+            </div>
+          </div>
+
+          <div class="card text-center shadow" style="width: 18rem;">
+            <div class="card-body">
+              <div class="iconoDatos">
+                <img src="./iconos/correo.svg"  alt="correo" />
+              </div>
+              <a href="mailto:contacto@gabs.com.mx" target="_blank">contacto@gabs.com.mx</a>
+            </div>
+          </div>
+      </aside>
+        
+      </section>
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15052.360763242094!2d-99.18181939151867!3d19.408508727764808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff41f9a53dd7%3A0xb2aac48c617446ff!2sHip%C3%B3dromo%2C%2006100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1675739189917!5m2!1ses-419!2smx" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div>
+
+         <footer class="row bg-dark.bg-gradient justify-content-center">
+            <div class="row col-lg-5 col-md-5 col-12 d-flex justify-content-center text-center">
+                <h5>REDES SOCIALES</h5>
+             <div class="d-flex flex-row mb-3 justify-content-center gap-2">
+              <a href="https://www.facebook.com/adrianagabriela.munozcruz.12" target="_blank"><img src="./img/facebook.png" alt="facebook"></a>
+              <a href="https://www.linkedin.com/in/adriana-gabriela-mu%C3%B1oz-cruz-5a943624" target="_blank"><img src="./img/in.png" alt="Linkin"></a>
+             </div>  
+            </div>
+            <div class="row col-lg-5 col-md-5 col-12 d-flex justify-content-around text-center">
+                <h5>CONTÁCTAME</h5>
+                <div class="d-flex flex-row mb-3 justify-content-center gap-2">
+                  <a href="mailto:contacto@gabs.com.mx" target="_blank"><img src="./img/contacto.png" alt="facebook"></a>
+                  <a href="https://wa.me/5215550755163?text=¡Hola! Me podrías dar más información sobre tus servicios" target="_blank"><img src="./img/whatsapp2.png" alt="Linkin"></a>
+                 </div> 
+            </div>
+            <div class="aviso"><h6>Portafolio realizado por Adriana Gabriela Muñoz Cruz</h4></div>
+         </footer>
+       </main>
+       
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> <!-- CDN del JS de Bootstrap, para que funcionen absolutamente todos los componentes --> 
+</body>
+</html>
