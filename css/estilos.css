@@ -849,7 +849,7 @@ max-width: 1024px;
   
 
 }
-@media (min-width:250px) and (max-width:576px){
+@media (min-width:250px) and (max-width:570px){
 
 
   .menuVer
@@ -926,9 +926,8 @@ max-width: 1024px;
 
 .contenedor{
     width: 100%;
-    background-color: red;
     background: linear-gradient( #000000 , #D60A00);
-    padding: 70px 30px;
+    padding: 60px 10px;
     font-family: 'Barlow', sans-serif;
     display: flex;
     justify-content: center;
@@ -938,7 +937,7 @@ max-width: 1024px;
 }
 
 .info{
-    font-size: 18px;
+    font-size:20px;
     width: 90%;
 }
 
@@ -967,7 +966,7 @@ max-width: 1024px;
 }
 
 .portafolio{
-  background-size: 100%;
+  background-size: 120%;
   background-repeat:no-repeat;
   background-position: top center;
 
